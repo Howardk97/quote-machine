@@ -60,7 +60,7 @@ export default function QuoteCard() {
         <div id="text" className={`fs-3 text-${color} text-center`}>{quote.text}</div>
         <div id="author" className={`fs-5 text-end text-${color} pt-2`}>- {quote.author}</div>
         <div className="d-flex justify-content-between align-items-center pt-2">
-          <a id="tweet-quote" href="twitter.com/intent/tweet" className={`bg-${color} text-light px-2 py-1 rounded-3`}>
+          <a id="tweet-quote" href="https://x.com/intent/post" className={`bg-${color} text-light px-2 py-1 rounded-3`}>
             <i id="twitter-icon" className="bi bi-twitter"></i>
           </a>
           <button id="new-quote" className={`fs-5 bg-${color} text-light rounded-3 p-2`} onClick={handleNewQuote}>New Quote</button>
